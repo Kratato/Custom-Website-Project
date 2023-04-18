@@ -2,7 +2,7 @@ body {
     overflow: visible;
 }
 
-#background-image-bottom {
+.background-image {
     position: fixed;
     left: 0;
     top: 0;
@@ -10,20 +10,30 @@ body {
     z-index: -10;
 }
 
+
+#background-image-bottom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+}
+
 #background-image-top {
-    position: relative;
+    position: absolute;
     width: 50%;
     left: 25%;
-    top: 500px;
+    top: 50%;
     z-index: 1;
 }
 
 #mainbody {
-    position: relative;
+    position: absolute;
     left: 0;
     right: 0;
-    top: 900px;
-    background-color: rgb(255, 255, 255);
+    top: 100%;
+    background-color: rgb(199, 181, 181);
     width: 110%;
     height: 3000px;
     z-index: 2;
@@ -56,17 +66,30 @@ body {
     z-index: 1;
 }
 
+
+/* please kill me */
+
 #more-info {
     position: absolute;
     right: 50px;
-
+    top: 25%;
+    /* display: inline; */
     table-layout: auto;
-    height: 100px;
-    width: 400px;
-    font-size: 30px;
+    /* height: 100px; */
+    /* width: 3vw + 100px; */
+    font-size: 3vw;
     font-family: Inter-Thin, sans-serif;
     color: rgb(255, 255, 255);
 }
+
+@media screen and (min-width: 1080px) {
+    
+    #more-info{
+        width: 132px;
+        font-size: 32.4px;
+    }
+}
+
 
 .more-info-link, .more-info-link:link, .more-info-link:visited, .more-info-link:active {
     color:rgb(255, 255, 255);
