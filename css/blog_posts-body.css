@@ -1,0 +1,92 @@
+#main-container {
+    position: absolute;
+    top: 10vh;
+    left: 0%;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (min-height: 1200px) {
+    #main-container {
+        top: 120px;
+    }
+}
+
+#blog-posts {
+    position: relative;
+    top: 2vh;
+    margin: auto;
+    width: 90%;
+}
+
+@media screen and (min-width: 1080px) {
+    #blog-posts {
+        width: 972px;
+    }
+}
+
+
+#blog-post {
+    width: 100%;
+}
+
+#blog-post h1 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    font-size: 32px;
+    font-family: MontserratAlternates-Black, sans-serif;
+}
+
+#blog-post h2 {
+    position: relative;
+    left: 60px;
+    top: -76px;
+    font-size: 24px;
+    font-family: MontserratAlternates-Medium, sans-serif;
+}
+
+#blog-post h3 {
+    position: relative;
+    left: 0px;
+    top: -80px;
+    font-size: 18px;
+    font-family: MontserratAlternates-Thin, sans-serif;
+}
+
+#blog-post p {
+    position: relative;
+    left: 0px;
+    top: -60px;
+    font-size: 20px;
+    line-height:30px;
+    font-family: MontserratAlternates-Regular, sans-serif;
+    text-align: justify;
+}
+
+#profile-picture {
+    overflow: hidden;
+    position: relative;
+    left: 0px;
+    top: -16px;
+    height: 52px;
+    width: 52px;
+}
+
+.profile-picture-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.profile-picture-cover {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}

@@ -1,3 +1,4 @@
 body {
-    overflow: visible;
+    overflow-y: visible;
+    overflow-x: hidden;
 }
