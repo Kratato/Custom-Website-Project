@@ -1,0 +1,1 @@
+profile pictures are from my photo gallery and cover i made in paint 3d
