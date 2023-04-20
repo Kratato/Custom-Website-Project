@@ -18,6 +18,9 @@
 	- img/download-speed.png -- [Freepik](https://www.flaticon.com/authors/freepik)
 	- img/value.png -- [Freepik](https://www.flaticon.com/authors/freepik)
 	- img/security.png -- [Freepik](https://www.flaticon.com/authors/freepik)
+- **Other sources**
+	- img/profile-pictures/[profile7.jpg](https://parade.com/1240718/kelseypelzer/albert-einstein-quotes/)
+	- img/profile-pictures/[profile8.png](https://en.wikipedia.org/wiki/Jeffrey_Epstein#/media/File:Epstein_Final_Mugshot.png)
 ### Fonts
 - [Google Fonts](https://fonts.google.com/)
 	- css/fonts/[Inter](https://fonts.google.com/specimen/Inter)/*
