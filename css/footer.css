@@ -1,18 +1,18 @@
 #footer {
     position: relative;
     width: 100%;
-    height: calc(400px + 2.5vw);
     background: rgb(4,99,128);
 }
 
 .footer-text {
     position: relative;
     display: table-cell;
-    height: calc(400px + 2.5vw);
-    width: 50vw;
-    left: 25vw;
+    width: 75vw;
+    left: 12.5vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     color: rgb(255, 255, 255);
-    font-size: 1.75em;
+    font-size: 1.75vw;
     font-family: MontserratAlternates-Regular, sans-serif;
     text-align: center;
     vertical-align: middle;
@@ -26,4 +26,13 @@
 .footer-support:hover {
     color:rgb(177, 177, 177);
     filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+
+
+@media screen and (min-width: 1900px) {
+    .footer-text {
+        font-size: 33.25px;
+        width: 1425px;
+        left: calc((100vw - 1425px)/2);
+    }
 }

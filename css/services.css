@@ -1,0 +1,140 @@
+#main-container {
+    position: absolute;
+    top: 10vh;
+    left: 0%;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (min-height: 1200px) {
+    #main-container {
+        top: 120px;
+    }
+}
+
+#title {
+    font-size: 5.5vw;
+    font-family: MontserratAlternates-Regular, sans-serif;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin: 0px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1900px) {
+    #title {
+        font-size: 104.5px;
+    }
+}
+
+.service-list {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.service-list div {
+    position: relative;
+    width: calc(100vw/3);
+    display: inline-block;
+}
+
+.service-list div img {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.service-list div h1 {
+    position: absolute;
+    bottom: 1.5vw;
+    margin: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 2vw;
+    white-space: pre-wrap;
+    font-family: MontserratAlternates-Regular, sans-serif;
+    color: rgb(233, 236, 239);
+    z-index: 2;
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+}
+
+.service-list div h2 {
+    position: absolute;
+    bottom: 0.5vw;
+    margin: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1vw;
+    font-family: MontserratAlternates-Regular, sans-serif;
+    color: rgb(206, 212, 218);
+    z-index: 2;
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+}
+
+.service-list div h2 sup {
+    font-size: 0.5vw;
+    color: rgb(222, 226, 230);
+}
+
+@media screen and (min-width: 1900px) {
+    .service-list div {
+        width: calc(1900px/3);
+    }
+    .service-list div h1 {
+        bottom: 28.5px;
+        font-size: 38px;
+    }
+    .service-list div h2 {
+        bottom: 9.5px;
+        font-size: 19px;
+    }
+    .service-list div h2 sup {
+        font-size: 9,5px;
+    }
+}
+
+.moreinfo {
+    position: relative;
+    left: 10vw;
+    font-size: 1vw;
+    margin-top: 0.75vw;
+    margin-bottom: 0.75vw;
+    font-family: MontserratAlternates-Regular, sans-serif;
+}
+
+@media screen and (min-width: 1900px) {
+    .moreinfo {
+        left: 190px;
+        font-size: 19px;
+        margin-top: 14.25px;
+        margin-bottom: 14.25px;
+    }
+}
+
+#current-customers {
+    position: relative;
+    width: 75vw;
+    left: 12.5vw;
+}
+
+#current-customers-text {
+    position: relative;
+    width: 75vw;
+    left: 12.5vw;
+    margin-top: 2.5vw;
+    font-size: 1.5vw;
+    font-family: MontserratAlternates-Regular, sans-serif;
+    text-align: justify;
+}
+
+@media screen and (min-width: 1900px) {
+    #current-customers {
+        width: 1425px;
+        left: calc((100vw - 1425px)/2); 
+    }
+    #current-customers-text {
+        width: 1425px;
+        left: calc((100vw - 1425px)/2);
+        font-size: 28.5px; 
+    }
+}

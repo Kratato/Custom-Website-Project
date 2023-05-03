@@ -1,0 +1,122 @@
+#main-container {
+    position: absolute;
+    top: 10vh;
+    left: 0%;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (min-height: 1200px) {
+    #main-container {
+        top: 120px;
+    }
+}
+
+#who-we-are {
+    width: 90%;
+    border-style: none;
+    margin: auto;
+}
+
+#who-we-are h1 {
+    font-size: 5.5vw;
+    font-family: MontserratAlternates-Regular, sans-serif;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin: 0px;
+    text-align: center;
+}
+
+#who-we-are p {
+    font-size: 1.5vw;
+    font-family: MontserratAlternates-Regular, sans-serif;
+    text-align: justify;
+}
+
+@media screen and (min-width: 1900px) {
+    #who-we-are {
+        width: 1710px;
+    }
+    #who-we-are h1 {
+        font-size: 104.5px;
+    }
+    #who-we-are p {
+        font-size: 28.5px;
+    }
+}
+
+#about-us-table {
+    width: 90%;
+    border-style: none;
+    margin: auto;
+}
+
+#about-us-table thead th {
+    font-size: 5.5vw;
+    font-family: MontserratAlternates-Regular, sans-serif;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+#about-us-table tbody td {
+    width: calc(100%/3);
+}
+
+#profile {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    background-color: rgb(233,236,239);
+    border-radius: 25px;
+}
+
+#profile img {
+    position: relative;
+    left: 7.5%;
+    top: calc(100vw*0.9*(1/3)*0.85*0.075);
+    width: 85%;
+    border-radius: 25px;
+}
+
+#profile h1 {
+    margin: calc(100vw*0.9*(1/3)*0.85*0.075);
+    margin-top: calc(100vw*0.9*(1/3)*0.85*0.09);
+    margin-bottom: 0px;
+    color: rgb(33,37,41);
+    font-size: 1.25vw;
+    font-family: MontserratAlternates-Bold, sans-serif;
+}
+
+#profile h2 {
+    margin: calc(100vw*0.9*(1/3)*0.85*0.075);
+    margin-top: 5px;
+    padding-bottom: calc(100vw*0.9*(1/3)*0.85*0.04);
+    color: rgb(33,37,41);
+    font-size: 1.5vw;
+    font-family: MontserratAlternates-Bold, sans-serif;
+}
+
+@media screen and (min-width: 1900px) {
+    #about-us-table {
+        width: 1710px;
+    }
+    #about-us-table thead th {
+        font-size: 104.5px;
+    }
+    #profile {
+        top: calc(1710px*0.9*(1/3)*0.85*0.075);
+    }
+    #profile img {
+        top: calc(1710px*0.9*(1/3)*0.85*0.075);
+    }
+    #profile h1 {
+        margin: calc(1710px*0.9*(1/3)*0.85*0.075);
+        margin-top: calc(1710px*0.9*(1/3)*0.85*0.09);
+        font-size: 21.375px;
+    }
+    #profile h2 {
+        margin: calc(1710px*0.9*(1/3)*0.85*0.075);
+        padding-bottom: calc(1710px*0.9*(1/3)*0.85*0.04);
+        font-size: 25.65px;
+    }
+}
